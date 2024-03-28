@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#container {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#card {
+    padding: 20px;
+}
+
+.header-wrapper {
+    text-align: center;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 0;
+}
+
+.header-wrapper h4 {
+    margin: 0;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+}
+
+input[type="number"],
+select,
+input[readonly] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+select {
+    appearance: none;
+    background-color: #ccc;
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+}
+
+#result {
+    font-weight: bold;
+    color: #007bff;
+}
+
+span {
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #007bff;
+    color: #fff;
+}
+/* Font Awesome ikonları için renk ve boyut ayarları */
+.fa-money-bill-transfer {
+    font-size: 24px;
+    color: #007bff; /* İkon rengi */
+}
+
+/* İkonun etrafında hafif bir gölge ekleyerek vurgulama */
+.fa-money-bill-transfer:hover {
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.3);
+    cursor: pointer;
+}
